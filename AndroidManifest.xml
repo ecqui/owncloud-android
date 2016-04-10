@@ -118,7 +118,7 @@
 
         <provider
             android:name=".providers.UsersAndGroupsSearchProvider"
-            android:authorities="com.ecqui.owncloud.providers.UsersAndGroupsSearchProvider"
+            android:authorities="com.ecqui.owncloud.sbox-svd-bau.providers.UsersAndGroupsSearchProvider"
             android:enabled="true"
             android:exported="false"
             android:label="@string/search_users_and_groups_hint" />

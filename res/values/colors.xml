@@ -20,9 +20,9 @@
 <resources>
 
 
-    <color name="owncloud_blue">#fc7300</color>
-    <color name="owncloud_blue_accent">#FDA255</color>
-    <color name="owncloud_blue_bright">#FDA255</color>
+    <color name="owncloud_blue">#a3a8aa</color>
+    <color name="owncloud_blue_accent">#a3a8aa</color>
+    <color name="owncloud_blue_bright">#a3a8aa</color>
 
     <color name="list_item_lastmod_and_filesize_text">#989898</color>
     <color name="black">#000000</color>
@@ -43,7 +43,7 @@
 
     <!-- standard material color definitions -->
     <color name="primary">@color/owncloud_blue</color>
-    <color name="primary_dark">#BD5600</color>
+    <color name="primary_dark">#7e8283</color>
 
     <!-- special transparent action bar colors for image preview -->
     <color name="owncloud_blue_transparent">#201D2D44</color>
