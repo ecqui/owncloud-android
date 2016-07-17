@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App name  and other strings-->
-    <string name="app_name">S-BOX SVD-Bau</string>
+    <string name="app_name">SVD Projektservice</string>
     <string name="account_type">sbox-svd-bau.svdgmbh.at</string>	<!-- better if was a domain name; but changing it now would require migrate accounts when the app is updated -->
     <string name="authority">com.ecqui.owncloud.sbox-svd-bau.provider</string>	<!-- better if was the app package with ".provider" appended ; it identifies the provider -->
     <string name ="db_file">sbox-svd-bau.db</string>
     <string name ="db_name">sboxsvdbau</string>
     <string name ="data_folder">sboxsvdbau</string>
     <string name ="log_name">sboxsvdbau_</string>
-    <string name ="default_display_name_for_root_folder">S-BOX SVD-Bau</string>
+    <string name ="default_display_name_for_root_folder">SVD Projektservice</string>
     <string name ="user_agent">Mozilla/5.0 (Android) sbox-svd-bau-android/%1$s</string>
     
     <!-- URLs and flags related -->
-    <string name="server_url">https://sbox-svd-bau.svdgmbh.at</string>
+    <string name="server_url">https://projektservice.svdgmbh.at</string>
     <bool name="show_server_url_input">false</bool>
     <bool name="show_welcome_link">false</bool>
-	<string name="welcome_link_url">"https://sbox-svd-bau.svdgmbh.at"</string>
+	<string name="welcome_link_url">"https://projektservice.svdgmbh.at"</string>
 	<string name="share_api_link"></string>
     
     <!-- Flags to setup the authentication methods available in the app -->
