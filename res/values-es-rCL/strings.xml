@@ -25,15 +25,10 @@
   <string name="sync_string_files">Archivos</string>
   <string name="setup_btn_connect">Conectar</string>
   <string name="uploader_btn_upload_text">Subir</string>
-  <string name="uploader_btn_new_folder_text">Nuevo directorio</string>
   <string name="uploader_top_message">Elija el directorio donde subir los archivos:</string>
   <string name="uploader_wrn_no_account_title">No se encuentra la cuenta</string>
   <string name="uploader_wrn_no_account_setup_btn_text">Configuración</string>
   <string name="uploader_wrn_no_account_quit_btn_text">Salir</string>
-  <string name="uploader_wrn_no_content_title">ningun contenido para subir</string>
-  <string name="uploader_wrn_no_content_text">No se ha recibido ningún contenido. No hay nada para subir.</string>
-  <string name="uploader_error_forbidden_content">%1$s no esta autorizado para acceder al contenido compartido</string>
-  <string name="uploader_info_uploading">Subiendo</string>
   <string name="file_list_seconds_ago">segundos antes</string>
   <string name="filedetails_select_file">Seleccione un archivo para desplegar información adicional.</string>
   <string name="filedetails_size">Tamaño:</string>
@@ -51,7 +46,6 @@
   <string name="common_loading">Cargando ...</string>
   <string name="common_error_unknown">Error desconocido</string>
   <string name="about_title">Acerca de</string>
-  <string name="delete_account">Eliminar cuenta</string>
   <string name="create_account">Crear cuenta</string>
   <string name="upload_chooser_title">Subir desde...</string>
   <string name="uploader_info_dirname">Nombre del directorio</string>
@@ -60,6 +54,7 @@
   <string name="uploader_upload_succeeded_ticker">Subida correcta</string>
   <string name="uploader_upload_failed_ticker">Subida fallida</string>
   <string name="uploader_upload_failed_content_single">La subida de %1$s no pudo ser completada</string>
+  <string name="uploads_view_upload_status_unknown_fail">Error desconocido</string>
   <string name="downloader_download_in_progress_ticker">Descargando...</string>
   <string name="downloader_download_in_progress_content">%1$d%% Descargando %2$s</string>
   <string name="downloader_download_succeeded_ticker">Descarga completada</string>
@@ -105,7 +100,6 @@
   <string name="confirmation_remove_alert">¿Realmente desea eliminar %1$s?</string>
   <string name="confirmation_remove_folder_alert">¿Realmente desea eliminar el archivo %1$s y su contenido?</string>
   <string name="confirmation_remove_local">Solo local</string>
-  <string name="confirmation_remove_folder_local">Solo local</string>
   <string name="remove_success_msg">Removido correctamente</string>
   <string name="remove_fail_msg">Fallo al remover</string>
   <string name="rename_dialog_title">ingresar un nuevo nombre</string>
@@ -144,4 +138,5 @@
   <string name="empty"></string>
   <string name="prefs_category_accounts">Cuentas</string>
   <string name="folder_picker_choose_button_text">Choose</string>
+  <string name="prefs_category_details">detalles</string>
 </resources>

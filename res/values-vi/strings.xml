@@ -14,6 +14,7 @@
     	<item>Biggest - Smallest</item>-->
   <!--TODO re-enable when "Accounts" is available in Navigation Drawer-->
   <!--<string name="drawer_item_accounts">Accounts</string>-->
+  <string name="drawer_item_all_files">Tất cả tệp tin</string>
   <!--TODO re-enable when "On Device" is available
     <string name="drawer_item_on_device">On device</string>-->
   <string name="drawer_open">Mở</string>
@@ -35,16 +36,15 @@
   <string name="sync_string_files">Tập tin</string>
   <string name="setup_btn_connect">Kết nối</string>
   <string name="uploader_btn_upload_text">Tải lên</string>
-  <string name="uploader_btn_new_folder_text">Tạo thư mục</string>
   <string name="uploader_wrn_no_account_title">Không tìm thấy tài khoản</string>
   <string name="uploader_wrn_no_account_setup_btn_text">Cài đặt</string>
   <string name="uploader_wrn_no_account_quit_btn_text">Thoát</string>
-  <string name="uploader_wrn_no_content_title">Không có nội dung tải lên</string>
-  <string name="uploader_wrn_no_content_text">Không có nội dung được nhận. Không có gì để tải lên.</string>
-  <string name="uploader_error_forbidden_content">%1$s không cho phép truy cập vào các nội dung chia sẻ</string>
-  <string name="uploader_info_uploading">Đang tải lên</string>
   <string name="file_list_seconds_ago">vài giây trước</string>
   <string name="file_list_empty">Không có gì ở đây .Hãy tải lên một cái gì đó !</string>
+  <string name="file_list_folder">folder</string>
+  <string name="file_list_folders">folders</string>
+  <string name="file_list_file">file</string>
+  <string name="file_list_files">file</string>
   <string name="filedetails_select_file">Tap vào một tập tin để hiển thị thêm thông tin</string>
   <string name="filedetails_size">Kích thước:</string>
   <string name="filedetails_type">Loại:</string>
@@ -57,12 +57,12 @@
   <string name="common_no">Không</string>
   <string name="common_ok">Chấp nhận</string>
   <string name="common_cancel">Hủy</string>
+  <string name="common_back">Trở lại</string>
   <string name="common_error">Lỗi</string>
   <string name="common_loading">Đang tải...</string>
   <string name="common_error_unknown">Lỗi chưa biết</string>
   <string name="about_title">Giới thiệu</string>
   <string name="change_password">Đổi mật khẩu</string>
-  <string name="delete_account">Xóa tài khoản</string>
   <string name="create_account">Tạo tài khoản</string>
   <string name="upload_chooser_title">Tải lên từ ...</string>
   <string name="uploader_info_dirname">Tên thư mục</string>
@@ -71,6 +71,11 @@
   <string name="uploader_upload_succeeded_ticker">Tải lên thành công</string>
   <string name="uploader_upload_failed_ticker">Tải lên thất bại</string>
   <string name="uploader_upload_failed_content_single">Tải lên %1$s không thể hoàn thành</string>
+  <string name="uploads_view_group_current_uploads">Hiện tại</string>
+  <string name="uploads_view_group_finished_uploads">Đã tải lên</string>
+  <string name="uploads_view_upload_status_succeeded">Hoàn thành</string>
+  <string name="uploads_view_upload_status_failed_permission_error">Lỗi quyền truy cập</string>
+  <string name="uploads_view_upload_status_unknown_fail">Lỗi chưa biết</string>
   <string name="downloader_download_in_progress_ticker">Đang tải về ...</string>
   <string name="downloader_download_in_progress_content">%1$d%% Đang tải về %2$s</string>
   <string name="downloader_download_succeeded_ticker">Tải về thành công</string>
@@ -131,11 +136,9 @@
   <string name="auth_expired_saml_sso_token_toast">Phiên làm việc của bạn đã kết thúc. Vui lòng kết nối lại</string>
   <string name="auth_unsupported_auth_method">Máy chủ không hổ trợ phương thức xác thực này</string>
   <string name="auth_unsupported_multiaccount">%1$s  không hỗ trợ nhiều tài khoản</string>
-  <string name="favorite">Ưu thích</string>
   <string name="common_rename">Sửa tên</string>
   <string name="common_remove">Xóa</string>
   <string name="confirmation_remove_local">Chỉ cục bộ</string>
-  <string name="confirmation_remove_folder_local">Chỉ cục bộ</string>
   <string name="remove_success_msg">Xóa thành công</string>
   <string name="remove_fail_msg">Xóa không thành công</string>
   <string name="rename_dialog_title">Nhập tên mới</string>
@@ -187,6 +190,7 @@
   <string name="empty"></string>
   <string name="prefs_category_accounts">Tài khoản</string>
   <string name="folder_picker_choose_button_text">Chọn</string>
+  <string name="prefs_category_details">Chi tiết</string>
   <string name="auth_host_address">Địa chỉ máy chủ</string>
   <string name="share_dialog_title">Chia sẻ</string>
   <string name="share_via_link_section_title">Chia sẻ liên kết</string>

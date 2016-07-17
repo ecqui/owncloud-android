@@ -28,10 +28,14 @@ import android.content.Context;
 import android.graphics.Point;
 import android.graphics.PorterDuff;
 import android.os.Build;
+import android.support.design.widget.Snackbar;
+import android.support.v4.content.ContextCompat;
 import android.text.format.DateUtils;
 import android.view.Display;
+import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.SeekBar;
+import android.widget.TextView;
 
 import com.owncloud.android.MainApp;
 import com.owncloud.android.R;
@@ -168,23 +172,6 @@ public class DisplayUtils {
         }
     }
 
-    /**
-     * Get the file extension if it is on path as type "content://.../DocInfo.doc"
-     * @param filepath: Content Uri converted to string format
-     * @return String: fileExtension (type '.pdf'). Empty if no extension
-     */
-    public static String getComposedFileExtension(String filepath) {
-        String fileExtension = "";
-        String fileNameInContentUri = filepath.substring(filepath.lastIndexOf("/"));
-
-        // Check if extension is included in uri
-        int pos = fileNameInContentUri.lastIndexOf('.');
-        if (pos >= 0) {
-            fileExtension = fileNameInContentUri.substring(pos);
-        }
-        return fileExtension;
-    }
-
     @SuppressWarnings("deprecation")
     public static CharSequence getRelativeDateTimeString (
             Context c, long time, long minResolution, long transitionResolution, int flags
@@ -278,4 +265,14 @@ public class DisplayUtils {
         }
     }
 
+    /**
+     * set the owncloud standard colors for the snackbar.
+     *
+     * @param context the context relevant for setting the color according to the context's theme
+     * @param snackbar the snackbar to be colored
+     */
+    public static void colorSnackbar(Context context, Snackbar snackbar) {
+        // Changing action button text color
+        snackbar.setActionTextColor(ContextCompat.getColor(context, R.color.white));
+    }
 }

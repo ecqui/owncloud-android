@@ -24,7 +24,6 @@
   <!--TODO re-enable when "On Device" is available
     <string name="drawer_item_on_device">On device</string>-->
   <string name="drawer_item_settings">الإعدادات</string>
-  <string name="drawer_item_logs">سجلّ</string>
   <string name="drawer_close">إغلاق</string>
   <string name="drawer_open">افتح</string>
   <string name="prefs_category_general">عام</string>
@@ -51,19 +50,18 @@
   <string name="sync_string_files">الملفات</string>
   <string name="setup_btn_connect">اتصال</string>
   <string name="uploader_btn_upload_text">رفع</string>
-  <string name="uploader_btn_new_folder_text">مجلد جديد</string>
   <string name="uploader_top_message">اختر مجلد الرفع</string>
   <string name="uploader_wrn_no_account_title">لم يتم العثور على أي حساب</string>
   <string name="uploader_wrn_no_account_setup_btn_text">تهيئة</string>
   <string name="uploader_wrn_no_account_quit_btn_text">خروج</string>
-  <string name="uploader_wrn_no_content_title">لا يوجد محتوى للرفع</string>
-  <string name="uploader_wrn_no_content_text">لم يتم استلام أي محتوى. لا شيء للرفع.</string>
-  <string name="uploader_error_forbidden_content">%1$s  غير مسموح له بالوصول للمحتوى المشارك</string>
-  <string name="uploader_info_uploading">يتم الرفع</string>
   <string name="file_list_seconds_ago">منذ ثواني</string>
   <string name="file_list_empty">لا يوجد شيء هنا. إرفع بعض الملفات!</string>
   <string name="file_list_loading">تحميل ...</string>
   <string name="local_file_list_empty">لا توجد ملفات في هذا المجلد</string>
+  <string name="file_list_folder">مجلد</string>
+  <string name="file_list_folders">مجلدات</string>
+  <string name="file_list_file">ملف</string>
+  <string name="file_list_files">ملفات</string>
   <string name="filedetails_select_file">اضغظ على الملف ليتم عرض خيارات أكثر</string>
   <string name="filedetails_size">الحجم :</string>
   <string name="filedetails_type">النوع :</string>
@@ -76,12 +74,12 @@
   <string name="common_no">لا</string>
   <string name="common_ok">تم</string>
   <string name="common_cancel">إلغاء</string>
+  <string name="common_back">رجوع</string>
   <string name="common_error">خطأ</string>
   <string name="common_loading">تحميل ...</string>
   <string name="common_error_unknown">خطأ غير معروف. </string>
   <string name="about_title">حول</string>
   <string name="change_password">عدل كلمة السر</string>
-  <string name="delete_account">حذف الحساب</string>
   <string name="create_account">حساب جديد</string>
   <string name="upload_chooser_title">الرفع من ...</string>
   <string name="uploader_info_dirname">اسم المجلد</string>
@@ -90,6 +88,8 @@
   <string name="uploader_upload_succeeded_ticker">تم الرفع بنجاح</string>
   <string name="uploader_upload_failed_ticker">فشل الرفع</string>
   <string name="uploader_upload_failed_content_single">لم يكتمل رفع  %1$s </string>
+  <string name="uploads_view_group_current_uploads">الحالي</string>
+  <string name="uploads_view_upload_status_unknown_fail">خطأ غير معروف. </string>
   <string name="downloader_download_in_progress_ticker">يتم التحميل ...</string>
   <string name="downloader_download_in_progress_content">%1$d%% تحميل  %2$s</string>
   <string name="downloader_download_succeeded_ticker">تم التحميل بنجاح</string>
@@ -153,13 +153,11 @@
   <string name="auth_unsupported_multiaccount">%1$s لا يدعم الحسابات المتعددة </string>
   <string name="auth_fail_get_user_name">الخادم الخاص بك لم يعد الإتصال بهويتك الصحيحة, الرجاء الإتصال بالمسؤول
 	</string>
-  <string name="favorite">المفضلة</string>
   <string name="common_rename">إعادة التسمية</string>
   <string name="common_remove">حذف</string>
   <string name="confirmation_remove_alert">هل تريد حقاً حذف %1$s ؟</string>
   <string name="confirmation_remove_folder_alert">هل ترغب في حذف %1$s و جهات الإتصال التابعة له؟ </string>
   <string name="confirmation_remove_local">محليا فقط</string>
-  <string name="confirmation_remove_folder_local">محليا فقط</string>
   <string name="remove_success_msg">تم الحذف بنجاح</string>
   <string name="remove_fail_msg">فشل الحذف</string>
   <string name="rename_dialog_title">أدخل اسما جديدا</string>
@@ -228,11 +226,13 @@
   <string name="actionbar_logger">سجل</string>
   <string name="saml_authentication_wrong_pass">كلمة مرور خاطئة</string>
   <string name="folder_picker_choose_button_text">اختيار</string>
+  <string name="prefs_category_details">تفاصيل</string>
   <string name="auth_host_address">عنوان الخادم</string>
   <string name="share_dialog_title">مشاركة</string>
   <string name="share_via_link_section_title">شارك الرابط</string>
   <string name="share_via_link_expiration_date_label">تعيين تاريخ إنتهاء الصلاحية</string>
   <string name="share_via_link_password_label">حماية كلمة السر</string>
+  <string name="share_via_link_edit_permission_label">السماح بالتعديلات</string>
   <string name="share_search">البحث</string>
   <string name="share_privilege_can_share">يمكن المشاركة</string>
   <string name="share_privilege_can_edit">يمكن التحرير</string>
